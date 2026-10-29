@@ -1,0 +1,36 @@
+# Section "PostgreSQL and the Synapse package" of https://bitvps.com/guides/host-a-matrix-synapse-homeserver
+# Read the guide before running anything: these are the command blocks as they appear
+# in the text, kept in order. Values in angle brackets, example hostnames, IPs and
+# passwords must be replaced with your own.
+
+# /etc/matrix-synapse/homeserver.yaml  (edit these keys; leave the rest)
+public_baseurl: https://matrix.example.com/
+
+listeners:
+  - port: 8008
+    tls: false
+    type: http
+    x_forwarded: true
+    bind_addresses: ['127.0.0.1']
+    resources:
+      - names: [client, federation]
+        compress: false
+
+database:
+  name: psycopg2
+  args:
+    user: synapse_user
+    password: CHANGE_ME_LONG_RANDOM
+    database: synapse
+    host: localhost
+    cp_min: 5
+    cp_max: 10
+
+# Keep registration closed; create users from the shell.
+enable_registration: false
+# Cap uploads and cache growth (see the operations section).
+max_upload_size: 50M
+media_retention:
+  remote_media_lifetime: 30d
+retention:
+  enabled: false

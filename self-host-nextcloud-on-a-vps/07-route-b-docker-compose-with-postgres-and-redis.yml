@@ -1,0 +1,50 @@
+# Section "Route B: docker-compose with Postgres and Redis" of https://bitvps.com/guides/self-host-nextcloud-on-a-vps
+# Read the guide before running anything: these are the command blocks as they appear
+# in the text, kept in order. Values in angle brackets, example hostnames, IPs and
+# passwords must be replaced with your own.
+
+# /opt/nextcloud/compose.yaml
+services:
+  db:
+    image: postgres:17-alpine
+    restart: always
+    volumes:
+      - db:/var/lib/postgresql/data
+    env_file: db.env
+
+  redis:
+    image: redis:alpine
+    restart: always
+
+  app:
+    image: nextcloud:35-apache
+    restart: always
+    ports:
+      - "127.0.0.1:11000:80"
+    volumes:
+      - nextcloud:/var/www/html
+      - ./data:/var/www/html/data
+    environment:
+      - POSTGRES_HOST=db
+      - REDIS_HOST=redis
+      - NEXTCLOUD_TRUSTED_DOMAINS=cloud.example.com
+      - OVERWRITEPROTOCOL=https
+      - OVERWRITEHOST=cloud.example.com
+      - TRUSTED_PROXIES=127.0.0.1
+      - PHP_MEMORY_LIMIT=1024M
+      - PHP_UPLOAD_LIMIT=4G
+    env_file: db.env
+    depends_on: [db, redis]
+
+  cron:
+    image: nextcloud:35-apache
+    restart: always
+    volumes:
+      - nextcloud:/var/www/html
+      - ./data:/var/www/html/data
+    entrypoint: /cron.sh
+    depends_on: [db, redis]
+
+volumes:
+  db:
+  nextcloud:
