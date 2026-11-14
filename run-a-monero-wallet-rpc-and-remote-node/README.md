@@ -1,6 +1,6 @@
 # Run a private Monero remote node and monero-wallet-rpc on a VPS, paid in Monero
 
-Files from the guide at https://bitvps.com/guides/run-a-monero-wallet-rpc-and-remote-node (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/run-a-monero-wallet-rpc-and-remote-node (published 2026-10-23, updated 2026-11-14).
 
 monerod with restricted RPC behind a Tor onion, plus monero-wallet-rpc on a view-only wallet so a shop detects XMR payments without holding the spend key.
 

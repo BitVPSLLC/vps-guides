@@ -4,7 +4,7 @@
 # passwords must be replaced with your own.
 
 VER=30.0   # check https://bitcoincore.org/en/download/ for the current release
-ARCH=$(uname -m)   # x86_64 on the BVX plans, aarch64 on the Arm BVA plans
+ARCH=$(uname -m)   # x86_64 on the plans we sell
 cd /tmp
 curl -LO https://bitcoincore.org/bin/bitcoin-core-$VER/bitcoin-$VER-$ARCH-linux-gnu.tar.gz
 curl -LO https://bitcoincore.org/bin/bitcoin-core-$VER/SHA256SUMS

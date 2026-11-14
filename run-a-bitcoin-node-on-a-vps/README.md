@@ -1,6 +1,6 @@
 # Run a Bitcoin node on a VPS (pruned or full) and pay for it in Bitcoin
 
-Files from the guide at https://bitvps.com/guides/run-a-bitcoin-node-on-a-vps (published 2026-10-19, updated 2026-10-19).
+Files from the guide at https://bitvps.com/guides/run-a-bitcoin-node-on-a-vps (published 2026-10-19, updated 2026-11-14).
 
 Install Bitcoin Core on an Ubuntu 24.04 VPS: disk sizing, signature verification, systemd unit, bitcoin.conf, pruning for 40 GB, Tor, monitoring.
 

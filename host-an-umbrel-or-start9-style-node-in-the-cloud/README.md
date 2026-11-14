@@ -1,6 +1,6 @@
 # Host an Umbrel-style node in the cloud: umbrelOS on a VPS, Tor-only access, and the honest storage math
 
-Files from the guide at https://bitvps.com/guides/host-an-umbrel-or-start9-style-node-in-the-cloud (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/host-an-umbrel-or-start9-style-node-in-the-cloud (published 2026-10-23, updated 2026-11-14).
 
 umbrelOS on an Ubuntu 24.04 VPS via the community Docker image: Tor-only access, honest sizing (pruned Bitcoin, app-only), and where Start9 fits.
 

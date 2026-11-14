@@ -1,6 +1,6 @@
 # Self-host a Monero node on a VPS: monerod, pruning, public RPC and Tor
 
-Files from the guide at https://bitvps.com/guides/self-host-a-monero-node (published 2026-10-19, updated 2026-10-19).
+Files from the guide at https://bitvps.com/guides/self-host-a-monero-node (published 2026-10-19, updated 2026-11-14).
 
 Run monerod on an Ubuntu 24.04 VPS: disk sizing, hash verification, systemd unit, pruning, public restricted RPC on 18089, Tor tx-proxy, wallet setup.
 

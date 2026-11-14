@@ -1,6 +1,6 @@
 # Buy and manage a VPS entirely over Tor: onion checkout, SSH through Tor, and an onion address for SSH
 
-Files from the guide at https://bitvps.com/guides/buy-and-manage-a-vps-over-tor (published 2026-10-22, updated 2026-10-22).
+Files from the guide at https://bitvps.com/guides/buy-and-manage-a-vps-over-tor (published 2026-10-22, updated 2026-11-14).
 
 Order from the onion mirror, get the access link, SSH through Tor with ProxyCommand, give the server its own .onion for SSH, and close the clearnet port.
 

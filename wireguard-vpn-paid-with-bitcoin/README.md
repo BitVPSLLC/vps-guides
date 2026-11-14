@@ -1,6 +1,6 @@
 # Set up a personal WireGuard VPN on a VPS paid with Bitcoin
 
-Files from the guide at https://bitvps.com/guides/wireguard-vpn-paid-with-bitcoin (published 2026-10-19, updated 2026-10-19).
+Files from the guide at https://bitvps.com/guides/wireguard-vpn-paid-with-bitcoin (published 2026-10-19, updated 2026-11-14).
 
 Build a personal WireGuard VPN on an Ubuntu 24.04 VPS: keys, wg0.conf with nftables NAT, IP forwarding, client QR code, DNS, and what a VPN does not hide.
 

@@ -1,6 +1,6 @@
 # Self-host an XMPP server with Prosody on a VPS and pay in Bitcoin or Monero
 
-Files from the guide at https://bitvps.com/guides/self-host-an-xmpp-server-with-prosody (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/self-host-an-xmpp-server-with-prosody (published 2026-10-23, updated 2026-11-14).
 
 Prosody 13 on Ubuntu 24.04: DNS and SRV records, Let’s Encrypt via certbot, OMEMO-ready modules (smacks, carbons, mam, uploads), Tor onion, federation.
 

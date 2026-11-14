@@ -1,6 +1,6 @@
 # Self-host a mempool.space explorer on a VPS with your own Bitcoin Core and electrs
 
-Files from the guide at https://bitvps.com/guides/self-host-a-bitcoin-mempool-explorer (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/self-host-a-bitcoin-mempool-explorer (published 2026-10-23, updated 2026-11-14).
 
 Self-host mempool with Docker Compose on Ubuntu 24.04: real sizing for an archival node with txindex, WireGuard to your Core and electrs, TLS, Tor onion.
 

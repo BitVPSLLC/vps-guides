@@ -1,6 +1,6 @@
 # Host a Nostr relay with strfry on a VPS and pay in Bitcoin or Monero
 
-Files from the guide at https://bitvps.com/guides/host-a-nostr-relay-on-a-vps (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/host-a-nostr-relay-on-a-vps (published 2026-10-23, updated 2026-11-14).
 
 Run a strfry Nostr relay on Ubuntu 24.04: build from source, systemd, nginx with Let’s Encrypt websockets, allowlist write policy, Tor onion, moderation.
 

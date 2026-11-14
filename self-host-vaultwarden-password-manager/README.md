@@ -1,6 +1,6 @@
 # Self-host Vaultwarden (Bitwarden-compatible) on a VPS and pay in Bitcoin or Monero
 
-Files from the guide at https://bitvps.com/guides/self-host-vaultwarden-password-manager (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/self-host-vaultwarden-password-manager (published 2026-10-23, updated 2026-11-14).
 
 Vaultwarden on an Ubuntu 24.04 VPS with Docker and Caddy: Argon2 admin token, Let’s Encrypt, fail2ban, SQLite backups off-box, and which small plan fits.
 

@@ -1,6 +1,6 @@
 # Self-host Nextcloud on a VPS with Docker and pay in Bitcoin or Monero
 
-Files from the guide at https://bitvps.com/guides/self-host-nextcloud-on-a-vps (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/self-host-nextcloud-on-a-vps (published 2026-10-23, updated 2026-11-14).
 
 Nextcloud 35 on Ubuntu 24.04: All-in-One behind Caddy or compose with Postgres and Redis, disk sizing by plan, cron, off-box backups, optional Collabora.
 

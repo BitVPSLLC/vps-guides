@@ -1,6 +1,6 @@
 # Run your own Electrum server (electrs or Fulcrum) on a VPS and pay in Bitcoin
 
-Files from the guide at https://bitvps.com/guides/run-an-electrum-server-on-a-vps (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/run-an-electrum-server-on-a-vps (published 2026-10-23, updated 2026-11-14).
 
 Private Electrum server for Sparrow and Electrum on a VPS: honest disk sizing for an unpruned chain, electrs 0.12 build, Fulcrum option, TLS, Tor onion.
 

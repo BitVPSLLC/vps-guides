@@ -1,6 +1,6 @@
 # Run a Lightning node (LND) on a VPS over Tor and pay for it in Bitcoin
 
-Files from the guide at https://bitvps.com/guides/run-a-lightning-node-on-a-vps (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/run-a-lightning-node-on-a-vps (published 2026-10-23, updated 2026-11-14).
 
 LND on an Ubuntu 24.04 VPS with a pruned Bitcoin Core backend: sizing, signed-release checks, systemd, Tor-only, channel backups off-box, watchtowers.
 

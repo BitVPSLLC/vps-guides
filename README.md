@@ -29,6 +29,7 @@ section first and replace example hostnames, IPs, keys and passwords with your o
 | [`self-host-an-xmpp-server-with-prosody`](./self-host-an-xmpp-server-with-prosody) | [Self-host an XMPP server with Prosody on a VPS and pay in Bitcoin or Monero](https://bitvps.com/guides/self-host-an-xmpp-server-with-prosody) | 6 |
 | [`host-a-matrix-synapse-homeserver`](./host-a-matrix-synapse-homeserver) | [Host a Matrix Synapse homeserver on a VPS and pay in Bitcoin or Monero](https://bitvps.com/guides/host-a-matrix-synapse-homeserver) | 8 |
 | [`host-an-umbrel-or-start9-style-node-in-the-cloud`](./host-an-umbrel-or-start9-style-node-in-the-cloud) | [Host an Umbrel-style node in the cloud: umbrelOS on a VPS, Tor-only access, and the honest storage math](https://bitvps.com/guides/host-an-umbrel-or-start9-style-node-in-the-cloud) | 4 |
+| [`vps-for-openclaw`](./vps-for-openclaw) | [VPS for OpenClaw: run the Gateway around the clock on a server paid in Bitcoin or Monero](https://bitvps.com/guides/vps-for-openclaw) | 11 |
 
 ## Regeneration
 

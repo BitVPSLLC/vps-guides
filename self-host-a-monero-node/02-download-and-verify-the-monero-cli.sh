@@ -4,7 +4,7 @@
 # passwords must be replaced with your own.
 
 cd /tmp
-# linux64 for the x86 BVX plans, linuxarm8 for the Arm BVA plans.
+# linux64 on the plans we sell.
 case "$(uname -m)" in
   x86_64)  TARGET=linux64 ;;
   aarch64) TARGET=linuxarm8 ;;

@@ -1,6 +1,6 @@
 # Run a Tor middle relay or obfs4 bridge on a VPS (no exit) and pay in Bitcoin
 
-Files from the guide at https://bitvps.com/guides/run-a-tor-relay-or-bridge-on-a-vps (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/run-a-tor-relay-or-bridge-on-a-vps (published 2026-10-23, updated 2026-11-14).
 
 Set up a Tor non-exit relay or obfs4 bridge on Ubuntu 24.04 from the Tor Project repo: torrc, bandwidth caps within 20 TB, families, Snowflake.
 

@@ -1,6 +1,6 @@
 # Run a SimpleX Chat server (SMP and XFTP) on a VPS and pay in Bitcoin or Monero
 
-Files from the guide at https://bitvps.com/guides/run-a-simplex-chat-server-on-a-vps (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/run-a-simplex-chat-server-on-a-vps (published 2026-10-23, updated 2026-11-14).
 
 Self-host SimpleX SMP and XFTP relays on Ubuntu 24.04: official install script, server addresses and fingerprints, Tor onion, firewall, smallest plan.
 

@@ -1,6 +1,6 @@
 # Host a Tor hidden service (v3 onion) with nginx on a VPS
 
-Files from the guide at https://bitvps.com/guides/host-a-tor-hidden-service (published 2026-10-19, updated 2026-10-19).
+Files from the guide at https://bitvps.com/guides/host-a-tor-hidden-service (published 2026-10-19, updated 2026-11-14).
 
 Set up a v3 onion site on Ubuntu 24.04: tor + nginx, torrc HiddenServiceDir/Port, localhost-only nginx, Onion-Location, key backup, vanity, DoS defenses.
 

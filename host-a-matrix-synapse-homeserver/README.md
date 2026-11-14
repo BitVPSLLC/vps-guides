@@ -1,6 +1,6 @@
 # Host a Matrix Synapse homeserver on a VPS and pay in Bitcoin or Monero
 
-Files from the guide at https://bitvps.com/guides/host-a-matrix-synapse-homeserver (published 2026-10-23, updated 2026-10-23).
+Files from the guide at https://bitvps.com/guides/host-a-matrix-synapse-homeserver (published 2026-10-23, updated 2026-11-14).
 
 Synapse on Ubuntu 24.04 via the matrix.org apt repo or Docker: Postgres, nginx and Let’s Encrypt, .well-known delegation, 4 GB RAM sizing, disk growth.
 
